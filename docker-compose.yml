@@ -20,7 +20,7 @@ services:
     restart: always
     container_name: oauth20v2
     build:
-      context: piloto_sistema_oauth20
+      context: oauth
       dockerfile: Dockerfile
     ports:
       - 9004:9004
@@ -34,7 +34,7 @@ services:
     restart: always
     container_name: backend
     build:
-      context: piloto_sistema_backend
+      context: backend
       dockerfile: Dockerfile
     ports:
       - 3004:3004
@@ -44,7 +44,7 @@ services:
     restart: always
     container_name: frontend
     build:
-      context: piloto_sistema_frontend
+      context: frontend
       dockerfile: Dockerfile
     ports:
       - 3000:3000

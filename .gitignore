@@ -1,7 +1,7 @@
 .env
 mongodb/volume
 mongodb/log/mongod.log
-piloto_sistema_catalogos
-piloto_sistema_oauth20
-piloto_sistema_backend
-piloto_sistema_frontend
+catalogos
+oauth
+backend
+frontend
