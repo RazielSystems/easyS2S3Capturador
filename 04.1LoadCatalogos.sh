@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /home/piloto_sistema_catalogos/
+cd /home/catalogos/
 
 for file in $(ls *.json);
 do
