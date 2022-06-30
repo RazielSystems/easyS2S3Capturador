@@ -11,7 +11,7 @@ db.createUser({
     ]
 });
 
-db.getUsers()
+db.getUsers();
 
 db.grantRolesToUser( "admonP2", [ { role: "readWrite", db: "S2" } ]);
 db.grantRolesToUser( "admonP2", [ { role: "readWrite", db: "S3_Servidores" } ]);
@@ -22,11 +22,11 @@ db.usuarios.insertOne({
     "apellidoUno": "Del",
     "apellidoDos": "Sistema",
     "cargo": "Administrador",
-    "correoElectronico": "admin@gmail.com",
+    "correoElectronico": "admin2@gmail.com",
     "telefono": "0000000000",
     "extension": "626262",
-    "usuario": "adminsystem",
-    "constrasena": "$JXz5yzL",
+    "usuario": "adminsystem2",
+    "constrasena": "JXz5yzL",
     "sistemas": [
         "S2",
         "S3S",
